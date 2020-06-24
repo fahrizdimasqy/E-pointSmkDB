@@ -1,0 +1,34 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+nav {
+    border-bottom: 1px solid white;
+}
+
+.main {
+    color: white;
+}
+
+.main h1 {
+    font-weight: 400;
+}
+
+.main h1 span {
+    font-weight: bold;
+    color: white;
+}
+
+.main p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.jumbotron {
+    background-color: #34495e;
+    border-radius: 0px;
+}
+
+.box-primary-shadow {
+    box-shadow: 0 5px 10px rgba(150, 148, 148, 0.842);
+}
