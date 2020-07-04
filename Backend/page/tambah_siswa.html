@@ -87,7 +87,6 @@
         <a class="sidebar-toggle d-flex">
           <i class="hamburger align-self-center"></i>
         </a>
-
         <div class="navbar-collapse collapse">
           <ul class="navbar-nav navbar-align">
             <li class="nav-item dropdown">
@@ -113,59 +112,34 @@
 
           <div class="row mb-2 mb-xl-3">
             <div class="col-auto d-none d-sm-block">
-              <h3><strong>Program</strong> Keahlian</h3>
-              <a href="tambah_jurusan.html" class="btn btn-primary mt-2">Tambah Jurusan</a>
+              <h3><strong>Tambah</strong> Siswa</h3>
             </div>
 
           </div>
-          <table class="table table-hover">
-            <thead>
-              <tr>
-                <th scope="col">No</th>
-                <th scope="col">Nama Jurusan</th>
-                <th scope="col">No SK</th>
-                <th scope="col">Opsi</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>RPL</td>
-                <td>xxxxx</td>
-                <td>
-                  <button class="btn btn-warning">Edit</button>
-                  <button class="btn btn-danger">Hapus</button>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Akuntansi</td>
-                <td>xxxxxx</td>
-                <td>
-                  <button class="btn btn-warning">Edit</button>
-                  <button class="btn btn-danger">Hapus</button>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>TSM</td>
-                <td>xxxx</td>
-                <td>
-                  <button class="btn btn-warning">Edit</button>
-                  <button class="btn btn-danger">Hapus</button>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">4</th>
-                <td>Axioo</td>
-                <td>xxxx</td>
-                <td>
-                  <button class="btn btn-warning">Edit</button>
-                  <button class="btn btn-danger">Hapus</button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="card">
+            <h5 class="card-header bg-primary text-white">Tambah Siswa</h5>
+            <div class="card-body">
+              <form>
+                <div class="form-group">
+                  <label for="formGroupExampleInput">NIS</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="NIS">
+                </div>
+                <div class="form-group">
+                  <label for="formGroupExampleInput2">Nama Siswa</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Nama Siswa">
+                </div>
+                <div class="form-group">
+                  <label for="formGroupExampleInput2">Melakukan</label>
+                  <select name="" id="" class="form-control">
+                    <option class="form-control">Default</option>
+                    <option class="form-control">Pelanggaran</option>
+                  </select>
+                </div>
+              </form>
+              <a href="#" class="btn btn-primary col-md-2">Save</a>
+              <a href="#" class="btn btn-danger col-md-2">Cancel</a>
+            </div>
+          </div>
       </main>
 
       <footer class="footer">
